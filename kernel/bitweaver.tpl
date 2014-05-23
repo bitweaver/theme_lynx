@@ -16,7 +16,6 @@
 	{$smarty.capture.lynxigation}
 	<div id="content">
 		{include file="bitpackage:liberty/display_structure.tpl"}
-		{if $pageError}<div class="error">{$pageError}</div>{/if}
 		{include file=$mid}
 	</div><!-- end #content -->{* needed by output filters. *}
 
